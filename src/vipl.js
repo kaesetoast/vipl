@@ -17,6 +17,19 @@
         return playerElement;
     };
 
+    vipl.play = function() {
+        playerElement.play();
+    };
+
+    vipl.pause = function() {
+        playerElement.pause();
+    };
+
+    vipl.stop = function() {
+        playerElement.pause();
+        playerElement.currentTime = 0;
+    };
+
     function fetchPlayerElement(_videoPlayerIdentifier) {
         if (typeof _videoPlayerIdentifier === 'string') {
             return document.getElementById(_videoPlayerIdentifier);

@@ -7,7 +7,11 @@
         <script src="//localhost:35729/livereload.js"></script>
     </head>
     <body>
-        <video id="player"></video>
+        <video id="player">
+            <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4"  /><!-- Safari / iOS, IE9 -->
+            <source src="http://clips.vorwaerts-gmbh.de/VfE.webm" type="video/webm" /><!-- Chrome10+, Ffx4+, Opera10.6+ -->
+            <source src="http://clips.vorwaerts-gmbh.de/VfE.ogv" type="video/ogg"  /><!-- Firefox3.6+ / Opera 10.5+ -->
+        </video>
         <script src="../dist/vipl.min.js"></script>
         <script>
             var player = vipl('player');
