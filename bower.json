@@ -1,0 +1,19 @@
+{
+    "name": "vipl",
+    "version": "0.0.1",
+    "authors": [
+        "Philipp Nowinski <philipp@nowinski.de>"
+    ],
+    "description": "A simple HTML5 video player",
+    "main": "dist/vipl.min.js",
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test"
+    ],
+    "devDependencies": {
+        "qunit": "~1.12.0"
+    }
+}
