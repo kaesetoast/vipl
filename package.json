@@ -1,21 +1,23 @@
 {
-    "name": "vipl",
-    "description": "A simple HTML5 video player",
-    "version": "0.0.1",
-    "author": {
-        "name": "Philipp Nowinski",
-        "email": "philipp@nowinski.de"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/kaesetoast/vipl.git"
-    },
-    "devDependencies": {
-        "grunt": "0.4.x",
-        "grunt-contrib": "0.7.x"
-    },
-    "licenses": [{
-        "type": "MIT",
-        "url": "https://github.com/kaesetoast/vipl/raw/master/LICENSE.md"
-    }]
+  "name": "vipl",
+  "description": "A simple HTML5 video player",
+  "version": "0.0.1",
+  "author": {
+    "name": "Philipp Nowinski",
+    "email": "philipp@nowinski.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaesetoast/vipl.git"
+  },
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-contrib": "0.7.x"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/kaesetoast/vipl/raw/master/LICENSE.md"
+    }
+  ]
 }
