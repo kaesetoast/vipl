@@ -30,6 +30,14 @@
         playerElement.currentTime = 0;
     };
 
+    vipl.setVolume = function(_volumeLevel) {
+        if (_volumeLevel >= 0 && _volumeLevel <= 1) {
+            playerElement.volume = _volumeLevel;
+        } else {
+            throw 'Volume level has to be a float between 0 and 1';
+        }
+    };
+
     function fetchPlayerElement(_videoPlayerIdentifier) {
         if (typeof _videoPlayerIdentifier === 'string') {
             return document.getElementById(_videoPlayerIdentifier);
