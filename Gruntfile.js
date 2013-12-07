@@ -19,21 +19,17 @@ module.exports = function(grunt) {
         watch: {
             all: {
                 files: ['src/*.js', 'demo/*.html'],
-                tasks: ['jshint', 'uglify', 'qunit'],
+                tasks: ['jshint', 'uglify'],
                 options: {
                     livereload: 35729
                 }
             }
-        },
-
-        qunit: {
-            all: ['test/**/*.html']
         }
 
     });
 
     grunt.loadNpmTasks('grunt-contrib');
 
-    grunt.registerTask('default', ['jshint', 'uglify', 'qunit', 'watch']);
+    grunt.registerTask('default', ['jshint', 'uglify', 'watch']);
 
 };

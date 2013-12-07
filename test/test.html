@@ -4,7 +4,14 @@
 <link href="../bower_components/qunit/qunit/qunit.css" rel="stylesheet">
 <script src="../bower_components/qunit/qunit/qunit.js"></script>
 <script src="../src/vipl.js"></script>
-<script src="test.js"></script>
+<script src="constructor.js"></script>
+<script src="controls.js"></script>
 
 <div id="qunit"></div>
-<div id="qunit-fixture"></div>
+<div id="qunit-fixture">
+    <video id="videoPlayer">
+        <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4"  /><!-- Safari / iOS, IE9 -->
+        <source src="http://clips.vorwaerts-gmbh.de/VfE.webm" type="video/webm" /><!-- Chrome10+, Ffx4+, Opera10.6+ -->
+        <source src="http://clips.vorwaerts-gmbh.de/VfE.ogv" type="video/ogg"  /><!-- Firefox3.6+ / Opera 10.5+ -->
+    </video>
+</div>
